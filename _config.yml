@@ -1,11 +1,11 @@
 # Site settings
 author: Andrew Davisson
-title: Andrew's Coding Journey
+title: Andrew's Flatiron Blog
 header-img: img/home-bg.png
 email: akdavisson4@gmail.com
 copyright_name: Andrew Davisson
 description: > # this means to ignore newlines until "baseurl:"
-  Andrew's Coding Journey
+  Andrew's Flatiron Blog
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  adavisson
