@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "async/await"
-date:       2020-01-28 19:17:01 +0000
+date:       2020-01-28 14:17:02 -0500
 permalink:  async_await
 ---
 
@@ -32,7 +32,7 @@ fetchData();
 ```
 That looks much cleaner and easier to read! So, what is happening here? Let's define async and await:
 
-#### async
+### async
 async: a keyword that you put in front of a function to turn it into an asynchronous function.
 
 This does a couple important things. First, it allows us to use the *await* keyword because the function now knows to look for it. Second, is now that is an asynchronous function, it returns a Promise. Since it returns a promise we could also combine the two methods, which can allow you to be more flexible and do something like this:
@@ -46,7 +46,8 @@ const fetchData = async() => {
 fetchData().then(data => someFunction(data));
 ```
 
-#### await
+
+### await
 await: a keyword that tells JavaScript to pause until the asynchronous function has returned a result. 
 
 **The *await* keyword only works inside an async function.** All you need to do to use the *await* keyword is put it before the function call and assign the result to a variable. So, looking at this line:
@@ -56,7 +57,7 @@ await: a keyword that tells JavaScript to pause until the asynchronous function 
 JavaScript sees the *await* keyword and pauses until the fetch operation returns a result. When it receives the result it assigns it to the variable 'resp' and continues on.
 
 
-#### Error Handling
+### Error Handling
 In the very first code snippet above we had a bit of code that would fire if an error was thrown. We can also do that with async/await by utilizing a try/catch block. It looks like this:
 
 ```
