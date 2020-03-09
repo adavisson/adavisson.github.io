@@ -1,12 +1,12 @@
 ---
 layout: post
 title:      "Get Postman"
-date:       2020-03-09 18:35:50 +0000
+date:       2020-03-09 14:35:51 -0400
 permalink:  get_postman
 ---
 
 
-This blog post is going to be a short and sweer appreciation post for Postman. I have been doing a fair amount of backend projects lately to work on routes, manipulating data, and just general API building. While working on these projects the one tool that I have found the most invaluable is Postman.
+This blog post is going to be a short and sweet appreciation post for Postman. I have been doing a fair amount of backend projects lately to work on routes, manipulating data, and just general API building. While working on these projects the one tool that I have found the most invaluable is Postman.
 
 Postman is a client that allows you to quickly build and send REST, SOAP, and GraphQL requests. When I work on new projects my process generally looks something like this: 1) Draw out models, attributes, and relationships on a whiteboard. 2) Create and run table migrations. 3) Add seed data. 4) And lastly, I like to work on the routes starting with basic GET requests and working on from there. 
 
