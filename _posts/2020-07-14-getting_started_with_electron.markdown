@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Getting Started with Electron"
-date:       2020-07-14 20:50:57 +0000
+title:      "Creating My Dream Email Client with Electron"
+date:       2020-07-14 16:50:58 -0400
 permalink:  getting_started_with_electron
 ---
 
